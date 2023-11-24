@@ -14,7 +14,7 @@ var time2Pontos float32
 var time3Pontos float32
 var time4Pontos float32
 
-
+// string,float32,string,float32,string,float32,string,float32
 func rodada1() (string,float32,string,float32,string,float32,string,float32){
 
 	time1gols := rand.Intn(6)
@@ -60,20 +60,18 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 	}
 	}
 	return time1,time1Pontos,time2,time2Pontos,time3,time3Pontos,time4,time4Pontos
+	
 }
 
 
 func main() {
 	fmt.Println(rodada1())
-	// fmt.Println(time1.gol())
 }
 
 
 	// time1 X time2
 	// time1 X time3
 	// time1 X time4
-
-
 
 	// time3 X time1
 	// time3 X time2
