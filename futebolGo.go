@@ -171,16 +171,3 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 func main() {
 	fmt.Println(rodada1())
 }
-
-
-	// time1 X time2
-	// time1 X time3
-	// time1 X time4
-
-	// time3 X time1
-	// time3 X time2
-	// time3 X time4
-
-	// time4 X time1
-	// time4 X time2
-	// time4 X time3
