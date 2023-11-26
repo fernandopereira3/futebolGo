@@ -27,7 +27,7 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 
 	// time1 X time2 
 	if time1gols == time2gols{
-		time1Pontos += 1.5 
+		time1Pontos += 1.5
 		time2Pontos += 1.5
 	}else if time1gols > time2gols{
 		time1Pontos += 3
@@ -56,6 +56,110 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 		time4Pontos += 0
 	}else if time4gols > time1gols{
 		time1Pontos += 0
+		time4Pontos += 3
+	}
+	// rodada2
+	// time2 X time1
+	if time2gols == time1gols{
+		time1Pontos += 1.5
+		time2Pontos += 1.5
+	}else if time1gols > time2gols{
+		time1Pontos += 3
+		time2Pontos += 0
+	}else if time2gols > time1gols{
+		time1Pontos += 0
+		time2Pontos += 3
+	}
+	// time2 X time3
+	if time2gols == time3gols{
+		time2Pontos += 1.5 
+		time3Pontos += 1.5
+	}else if time2gols > time3gols{
+		time2Pontos += 3
+		time3Pontos += 0
+	}else if time3gols > time2gols{
+		time2Pontos += 0
+		time3Pontos += 3
+	}
+	// // time2 X time4
+	if time2gols == time4gols{
+		time1Pontos += 1.5 
+		time4Pontos += 1.5
+	}else if time2gols > time4gols{
+		time2Pontos += 3
+		time4Pontos += 0
+	}else if time4gols > time2gols{
+		time2Pontos += 0
+		time4Pontos += 3
+	}
+
+	// rodada3
+	// time3 X time1
+	if time3gols == time1gols{
+		time3Pontos += 1.5
+		time2Pontos += 1.5
+	}else if time3gols > time1gols{
+		time3Pontos += 3
+		time1Pontos += 0
+	}else if time1gols > time3gols{
+		time3Pontos += 0
+		time1Pontos += 3
+	}
+	// time2 X time3
+	if time2gols == time3gols{
+		time2Pontos += 1.5 
+		time3Pontos += 1.5
+	}else if time2gols > time3gols{
+		time2Pontos += 3
+		time3Pontos += 0
+	}else if time3gols > time2gols{
+		time2Pontos += 0
+		time3Pontos += 3
+	}
+	// // time3 X time4
+	if time3gols == time4gols{
+		time3Pontos += 1.5 
+		time4Pontos += 1.5
+	}else if time3gols > time4gols{
+		time3Pontos += 3
+		time4Pontos += 0
+	}else if time4gols > time3gols{
+		time3Pontos += 0
+		time4Pontos += 3
+	}
+
+	// rodada4
+	// time4 X time1
+	if time4gols == time1gols{
+		time1Pontos += 1.5
+		time4Pontos += 1.5
+	}else if time1gols > time4gols{
+		time1Pontos += 3
+		time4Pontos += 0
+	}else if time4gols > time1gols{
+		time1Pontos += 0
+		time4Pontos += 3
+	}
+	// time4 X time2
+	if time4gols == time2gols{
+		time4Pontos += 1.5 
+		time2Pontos += 1.5
+	}else if time4gols > time2gols{
+		time4Pontos += 3
+		time2Pontos += 0
+	}else if time2gols > time4gols{
+		time4Pontos += 0
+		time2Pontos += 3
+	}
+	// // time4 X time3
+	if time4gols == time3gols{
+		time3Pontos += 1.5 
+		time4Pontos += 1.5
+	}else if time3gols > time4gols{
+		time3Pontos += 3
+		time4Pontos += 0
+	}else if time4gols > time3gols{
+		time3Pontos += 0
 		time4Pontos += 3
 	}
 	}
