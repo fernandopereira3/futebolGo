@@ -5,8 +5,8 @@ import (
 	"math/rand"
 )
 
-const time1 string = "India"
-const time2 string = "Canada"
+const time1 string = "Argentina"
+const time2 string = "Germany"
 const time3 string = "Japan"
 const time4 string = "Brazil"
 var time1Pontos float32
