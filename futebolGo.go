@@ -23,7 +23,7 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 	time4gols := rand.Intn(6)
 	 
 
-	for rodada := 0; rodada <= 33; rodada++{
+	for rodada := 0; rodada <= 9; rodada++{
 
 	// time1 X time2 
 	if time1gols == time2gols{
