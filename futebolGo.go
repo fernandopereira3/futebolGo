@@ -167,6 +167,7 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 	
 }
 
+// atualizacao 2024
 
 func main() {
 	fmt.Println(rodada1())
