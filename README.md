@@ -1,6 +1,18 @@
 # futebolGo
 
-Made for fun and study, it is a program that simulates a group with 4 teams in 32 rounds.
-Where whoever wins gets 3 points, whoever loses gets no points and in the event of a tie there are 1.5 points for each.
+| :placard: Vitrine |     |
+| -------------  | --- |
+| :sparkles: Fernando Pereira        | Futebol com Go
+| :label: Tecnologias | Golang
 
-As soon as I have time I will implement more games.
+## Details
+
+A small program in Go created to imagine what a football match would be like where the points are: Victory 3 points, Draw 1.5 points and Defeat 0 points.
+It was made just for fun!
+
+### How use
+
+In the project folder:
+```
+go run futebolGo.go
+```
