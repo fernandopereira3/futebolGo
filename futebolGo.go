@@ -15,7 +15,7 @@ var time3Pontos float32
 var time4Pontos float32
 
 // string,float32,string,float32,string,float32,string,float32
-func rodada1() (string,float32,string,float32,string,float32,string,float32){
+func rodadas() (string,float32,string,float32,string,float32,string,float32){
 
 	time1gols := rand.Intn(6)
 	time2gols := rand.Intn(6)
@@ -170,5 +170,5 @@ func rodada1() (string,float32,string,float32,string,float32,string,float32){
 // atualizacao 2024
 
 func main() {
-	fmt.Println(rodada1())
+	fmt.Println(rodadas())
 }
